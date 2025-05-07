@@ -1,0 +1,61 @@
+/* AddRecipe.css */
+.add-recipe-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #A3D8F4; /* Light pastel blue */
+  padding: 20px;
+}
+
+.add-recipe-page h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.recipe-form {
+  width: 100%;
+  max-width: 600px;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-form label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.recipe-form input,
+.recipe-form textarea {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.recipe-form textarea {
+  min-height: 150px;
+}
+
+.recipe-form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #F15A29; /* Deep coral */
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.recipe-form button:hover {
+  background-color: #006F73; /* Teal */
+}

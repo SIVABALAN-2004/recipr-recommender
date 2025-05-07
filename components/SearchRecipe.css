@@ -1,0 +1,86 @@
+/* SearchRecipe.css */
+.recipe-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.recipe-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.recipe-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.recipe-details {
+  font-size: 1rem;
+  color: #333;
+}
+
+.recipe-details div {
+  margin-bottom: 10px;
+}
+
+.recipe-ingredients ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.recipe-ingredients li {
+  margin-left: 10px;
+}
+
+.recipe-instructions p,
+.recipe-time p {
+  margin-left: 10px;
+  color: #555;
+}
+
+.search-recipe-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #A3D8F4; /* Light pastel blue */
+  padding: 20px;
+}
+
+.search-recipe-page h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.search-recipe-page input {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.search-recipe-page button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #F15A29; /* Deep coral */
+  color: rgb(211, 13, 13);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-recipe-page button:hover {
+  background-color: #006F73; /* Teal */
+}
